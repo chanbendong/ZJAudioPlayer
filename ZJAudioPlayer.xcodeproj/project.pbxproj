@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C36B59D204FCB6E000E3DC2 /* ZJAudioOutputQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C36B59C204FCB6E000E3DC2 /* ZJAudioOutputQueue.m */; };
+		1C39402520565B7E0019DF60 /* wula.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C39402420565B7D0019DF60 /* wula.mp3 */; };
+		1C6F7F09204D249500CE9CCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6F7F08204D249500CE9CCF /* AppDelegate.m */; };
+		1C6F7F0C204D249500CE9CCF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6F7F0B204D249500CE9CCF /* ViewController.m */; };
+		1C6F7F0F204D249500CE9CCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6F7F0D204D249500CE9CCF /* Main.storyboard */; };
+		1C6F7F11204D249500CE9CCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C6F7F10204D249500CE9CCF /* Assets.xcassets */; };
+		1C6F7F14204D249500CE9CCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6F7F12204D249500CE9CCF /* LaunchScreen.storyboard */; };
+		1C6F7F17204D249500CE9CCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6F7F16204D249500CE9CCF /* main.m */; };
+		1C6F7F21204D249500CE9CCF /* ZJAudioPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6F7F20204D249500CE9CCF /* ZJAudioPlayerTests.m */; };
+		1C6F7F2C204D249500CE9CCF /* ZJAudioPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6F7F2B204D249500CE9CCF /* ZJAudioPlayerUITests.m */; };
+		1C6F7F3B204D250A00CE9CCF /* ZJAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6F7F3A204D250A00CE9CCF /* ZJAudioPlayer.m */; };
+		1C6F7F40204D2C6400CE9CCF /* ZJAudioFileStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6F7F3D204D2C6400CE9CCF /* ZJAudioFileStream.m */; };
+		1C6F7F41204D2C6400CE9CCF /* ZJParseAudioData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6F7F3E204D2C6400CE9CCF /* ZJParseAudioData.m */; };
+		1C6F7F44204D2C7100CE9CCF /* ZJAudioFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6F7F43204D2C7100CE9CCF /* ZJAudioFile.m */; };
+		1C6F7F47204D2D8600CE9CCF /* ZJAudioBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6F7F46204D2D8600CE9CCF /* ZJAudioBuffer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C6F7F1D204D249500CE9CCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C6F7EFC204D249500CE9CCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C6F7F03204D249500CE9CCF;
+			remoteInfo = ZJAudioPlayer;
+		};
+		1C6F7F28204D249500CE9CCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C6F7EFC204D249500CE9CCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C6F7F03204D249500CE9CCF;
+			remoteInfo = ZJAudioPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C36B59B204FCB6E000E3DC2 /* ZJAudioOutputQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJAudioOutputQueue.h; sourceTree = "<group>"; };
+		1C36B59C204FCB6E000E3DC2 /* ZJAudioOutputQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJAudioOutputQueue.m; sourceTree = "<group>"; };
+		1C39402420565B7D0019DF60 /* wula.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wula.mp3; sourceTree = "<group>"; };
+		1C6F7F04204D249500CE9CCF /* ZJAudioPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJAudioPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C6F7F07204D249500CE9CCF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1C6F7F08204D249500CE9CCF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1C6F7F0A204D249500CE9CCF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1C6F7F0B204D249500CE9CCF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1C6F7F0E204D249500CE9CCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C6F7F10204D249500CE9CCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C6F7F13204D249500CE9CCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C6F7F15204D249500CE9CCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C6F7F16204D249500CE9CCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1C6F7F1C204D249500CE9CCF /* ZJAudioPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJAudioPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C6F7F20204D249500CE9CCF /* ZJAudioPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJAudioPlayerTests.m; sourceTree = "<group>"; };
+		1C6F7F22204D249500CE9CCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C6F7F27204D249500CE9CCF /* ZJAudioPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJAudioPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C6F7F2B204D249500CE9CCF /* ZJAudioPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJAudioPlayerUITests.m; sourceTree = "<group>"; };
+		1C6F7F2D204D249500CE9CCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C6F7F39204D250A00CE9CCF /* ZJAudioPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJAudioPlayer.h; sourceTree = "<group>"; };
+		1C6F7F3A204D250A00CE9CCF /* ZJAudioPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJAudioPlayer.m; sourceTree = "<group>"; };
+		1C6F7F3C204D2C6400CE9CCF /* ZJParseAudioData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJParseAudioData.h; sourceTree = "<group>"; };
+		1C6F7F3D204D2C6400CE9CCF /* ZJAudioFileStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJAudioFileStream.m; sourceTree = "<group>"; };
+		1C6F7F3E204D2C6400CE9CCF /* ZJParseAudioData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJParseAudioData.m; sourceTree = "<group>"; };
+		1C6F7F3F204D2C6400CE9CCF /* ZJAudioFileStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJAudioFileStream.h; sourceTree = "<group>"; };
+		1C6F7F42204D2C7100CE9CCF /* ZJAudioFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJAudioFile.h; sourceTree = "<group>"; };
+		1C6F7F43204D2C7100CE9CCF /* ZJAudioFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJAudioFile.m; sourceTree = "<group>"; };
+		1C6F7F45204D2D8600CE9CCF /* ZJAudioBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJAudioBuffer.h; sourceTree = "<group>"; };
+		1C6F7F46204D2D8600CE9CCF /* ZJAudioBuffer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJAudioBuffer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C6F7F01204D249500CE9CCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C6F7F19204D249500CE9CCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C6F7F24204D249500CE9CCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C6F7EFB204D249500CE9CCF = {
+			isa = PBXGroup;
+			children = (
+				1C6F7F06204D249500CE9CCF /* ZJAudioPlayer */,
+				1C6F7F1F204D249500CE9CCF /* ZJAudioPlayerTests */,
+				1C6F7F2A204D249500CE9CCF /* ZJAudioPlayerUITests */,
+				1C6F7F05204D249500CE9CCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C6F7F05204D249500CE9CCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C6F7F04204D249500CE9CCF /* ZJAudioPlayer.app */,
+				1C6F7F1C204D249500CE9CCF /* ZJAudioPlayerTests.xctest */,
+				1C6F7F27204D249500CE9CCF /* ZJAudioPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C6F7F06204D249500CE9CCF /* ZJAudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				1C39402420565B7D0019DF60 /* wula.mp3 */,
+				1C6F7F3F204D2C6400CE9CCF /* ZJAudioFileStream.h */,
+				1C6F7F3D204D2C6400CE9CCF /* ZJAudioFileStream.m */,
+				1C6F7F3C204D2C6400CE9CCF /* ZJParseAudioData.h */,
+				1C6F7F3E204D2C6400CE9CCF /* ZJParseAudioData.m */,
+				1C6F7F45204D2D8600CE9CCF /* ZJAudioBuffer.h */,
+				1C6F7F46204D2D8600CE9CCF /* ZJAudioBuffer.m */,
+				1C36B59B204FCB6E000E3DC2 /* ZJAudioOutputQueue.h */,
+				1C36B59C204FCB6E000E3DC2 /* ZJAudioOutputQueue.m */,
+				1C6F7F42204D2C7100CE9CCF /* ZJAudioFile.h */,
+				1C6F7F43204D2C7100CE9CCF /* ZJAudioFile.m */,
+				1C6F7F07204D249500CE9CCF /* AppDelegate.h */,
+				1C6F7F08204D249500CE9CCF /* AppDelegate.m */,
+				1C6F7F0A204D249500CE9CCF /* ViewController.h */,
+				1C6F7F0B204D249500CE9CCF /* ViewController.m */,
+				1C6F7F0D204D249500CE9CCF /* Main.storyboard */,
+				1C6F7F39204D250A00CE9CCF /* ZJAudioPlayer.h */,
+				1C6F7F3A204D250A00CE9CCF /* ZJAudioPlayer.m */,
+				1C6F7F10204D249500CE9CCF /* Assets.xcassets */,
+				1C6F7F12204D249500CE9CCF /* LaunchScreen.storyboard */,
+				1C6F7F15204D249500CE9CCF /* Info.plist */,
+				1C6F7F16204D249500CE9CCF /* main.m */,
+			);
+			path = ZJAudioPlayer;
+			sourceTree = "<group>";
+		};
+		1C6F7F1F204D249500CE9CCF /* ZJAudioPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C6F7F20204D249500CE9CCF /* ZJAudioPlayerTests.m */,
+				1C6F7F22204D249500CE9CCF /* Info.plist */,
+			);
+			path = ZJAudioPlayerTests;
+			sourceTree = "<group>";
+		};
+		1C6F7F2A204D249500CE9CCF /* ZJAudioPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1C6F7F2B204D249500CE9CCF /* ZJAudioPlayerUITests.m */,
+				1C6F7F2D204D249500CE9CCF /* Info.plist */,
+			);
+			path = ZJAudioPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C6F7F03204D249500CE9CCF /* ZJAudioPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C6F7F30204D249500CE9CCF /* Build configuration list for PBXNativeTarget "ZJAudioPlayer" */;
+			buildPhases = (
+				1C6F7F00204D249500CE9CCF /* Sources */,
+				1C6F7F01204D249500CE9CCF /* Frameworks */,
+				1C6F7F02204D249500CE9CCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZJAudioPlayer;
+			productName = ZJAudioPlayer;
+			productReference = 1C6F7F04204D249500CE9CCF /* ZJAudioPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C6F7F1B204D249500CE9CCF /* ZJAudioPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C6F7F33204D249500CE9CCF /* Build configuration list for PBXNativeTarget "ZJAudioPlayerTests" */;
+			buildPhases = (
+				1C6F7F18204D249500CE9CCF /* Sources */,
+				1C6F7F19204D249500CE9CCF /* Frameworks */,
+				1C6F7F1A204D249500CE9CCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C6F7F1E204D249500CE9CCF /* PBXTargetDependency */,
+			);
+			name = ZJAudioPlayerTests;
+			productName = ZJAudioPlayerTests;
+			productReference = 1C6F7F1C204D249500CE9CCF /* ZJAudioPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1C6F7F26204D249500CE9CCF /* ZJAudioPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C6F7F36204D249500CE9CCF /* Build configuration list for PBXNativeTarget "ZJAudioPlayerUITests" */;
+			buildPhases = (
+				1C6F7F23204D249500CE9CCF /* Sources */,
+				1C6F7F24204D249500CE9CCF /* Frameworks */,
+				1C6F7F25204D249500CE9CCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C6F7F29204D249500CE9CCF /* PBXTargetDependency */,
+			);
+			name = ZJAudioPlayerUITests;
+			productName = ZJAudioPlayerUITests;
+			productReference = 1C6F7F27204D249500CE9CCF /* ZJAudioPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C6F7EFC204D249500CE9CCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "吴孜健";
+				TargetAttributes = {
+					1C6F7F03204D249500CE9CCF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					1C6F7F1B204D249500CE9CCF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1C6F7F03204D249500CE9CCF;
+					};
+					1C6F7F26204D249500CE9CCF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1C6F7F03204D249500CE9CCF;
+					};
+				};
+			};
+			buildConfigurationList = 1C6F7EFF204D249500CE9CCF /* Build configuration list for PBXProject "ZJAudioPlayer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C6F7EFB204D249500CE9CCF;
+			productRefGroup = 1C6F7F05204D249500CE9CCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C6F7F03204D249500CE9CCF /* ZJAudioPlayer */,
+				1C6F7F1B204D249500CE9CCF /* ZJAudioPlayerTests */,
+				1C6F7F26204D249500CE9CCF /* ZJAudioPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C6F7F02204D249500CE9CCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C6F7F14204D249500CE9CCF /* LaunchScreen.storyboard in Resources */,
+				1C6F7F11204D249500CE9CCF /* Assets.xcassets in Resources */,
+				1C6F7F0F204D249500CE9CCF /* Main.storyboard in Resources */,
+				1C39402520565B7E0019DF60 /* wula.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C6F7F1A204D249500CE9CCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C6F7F25204D249500CE9CCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C6F7F00204D249500CE9CCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C6F7F0C204D249500CE9CCF /* ViewController.m in Sources */,
+				1C6F7F3B204D250A00CE9CCF /* ZJAudioPlayer.m in Sources */,
+				1C6F7F47204D2D8600CE9CCF /* ZJAudioBuffer.m in Sources */,
+				1C6F7F40204D2C6400CE9CCF /* ZJAudioFileStream.m in Sources */,
+				1C6F7F17204D249500CE9CCF /* main.m in Sources */,
+				1C36B59D204FCB6E000E3DC2 /* ZJAudioOutputQueue.m in Sources */,
+				1C6F7F44204D2C7100CE9CCF /* ZJAudioFile.m in Sources */,
+				1C6F7F41204D2C6400CE9CCF /* ZJParseAudioData.m in Sources */,
+				1C6F7F09204D249500CE9CCF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C6F7F18204D249500CE9CCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C6F7F21204D249500CE9CCF /* ZJAudioPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C6F7F23204D249500CE9CCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C6F7F2C204D249500CE9CCF /* ZJAudioPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C6F7F1E204D249500CE9CCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C6F7F03204D249500CE9CCF /* ZJAudioPlayer */;
+			targetProxy = 1C6F7F1D204D249500CE9CCF /* PBXContainerItemProxy */;
+		};
+		1C6F7F29204D249500CE9CCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C6F7F03204D249500CE9CCF /* ZJAudioPlayer */;
+			targetProxy = 1C6F7F28204D249500CE9CCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C6F7F0D204D249500CE9CCF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C6F7F0E204D249500CE9CCF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C6F7F12204D249500CE9CCF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C6F7F13204D249500CE9CCF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C6F7F2E204D249500CE9CCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1C6F7F2F204D249500CE9CCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C6F7F31204D249500CE9CCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S2M8YGAD46;
+				INFOPLIST_FILE = ZJAudioPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChanBenDong.ZJAudioPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C6F7F32204D249500CE9CCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S2M8YGAD46;
+				INFOPLIST_FILE = ZJAudioPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChanBenDong.ZJAudioPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1C6F7F34204D249500CE9CCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S2M8YGAD46;
+				INFOPLIST_FILE = ZJAudioPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChanBenDong.ZJAudioPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJAudioPlayer.app/ZJAudioPlayer";
+			};
+			name = Debug;
+		};
+		1C6F7F35204D249500CE9CCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S2M8YGAD46;
+				INFOPLIST_FILE = ZJAudioPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChanBenDong.ZJAudioPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJAudioPlayer.app/ZJAudioPlayer";
+			};
+			name = Release;
+		};
+		1C6F7F37204D249500CE9CCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S2M8YGAD46;
+				INFOPLIST_FILE = ZJAudioPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChanBenDong.ZJAudioPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZJAudioPlayer;
+			};
+			name = Debug;
+		};
+		1C6F7F38204D249500CE9CCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S2M8YGAD46;
+				INFOPLIST_FILE = ZJAudioPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChanBenDong.ZJAudioPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZJAudioPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C6F7EFF204D249500CE9CCF /* Build configuration list for PBXProject "ZJAudioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C6F7F2E204D249500CE9CCF /* Debug */,
+				1C6F7F2F204D249500CE9CCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C6F7F30204D249500CE9CCF /* Build configuration list for PBXNativeTarget "ZJAudioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C6F7F31204D249500CE9CCF /* Debug */,
+				1C6F7F32204D249500CE9CCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C6F7F33204D249500CE9CCF /* Build configuration list for PBXNativeTarget "ZJAudioPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C6F7F34204D249500CE9CCF /* Debug */,
+				1C6F7F35204D249500CE9CCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C6F7F36204D249500CE9CCF /* Build configuration list for PBXNativeTarget "ZJAudioPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C6F7F37204D249500CE9CCF /* Debug */,
+				1C6F7F38204D249500CE9CCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C6F7EFC204D249500CE9CCF /* Project object */;
+}
